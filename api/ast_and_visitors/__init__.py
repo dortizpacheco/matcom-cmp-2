@@ -1,0 +1,1 @@
+from .main import semantic_check
