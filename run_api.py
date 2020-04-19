@@ -1,3 +1,1 @@
-from api import run,tester
-
-tester()
+from api import run
