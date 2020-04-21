@@ -124,6 +124,10 @@ class Token:
 
     def __repr__(self):
         return str(self)
+    
+    def __eq__(self,other):
+        if not isinstance(other,Token): return False
+        return self.lex == other.lex and self.token_type == other.token_type
 
     @property
     def is_valid(self):

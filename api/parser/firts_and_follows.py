@@ -124,8 +124,13 @@ def unit_testing():
     firsts = compute_firsts(G)
     assert firsts == xcool.firsts , "Test Error in parser_library.algorithm.firts_set.compute_firts"
 
+    print(" - firsts  ;) ")
+
     follows = compute_follows(G,firsts)
     assert follows == xcool.follows , "Test Error in parser_library.algorithm.follow_set.compute_follows"
+    
+    print(" - follows ;) ")
+
     return "FAF"
 
 

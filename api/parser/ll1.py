@@ -186,7 +186,7 @@ def unit_testing():
        Production(X, G.Epsilon),
     ] ,"Test Error in  parser_library.LL1.parser"
 
-    print(" - buider func ;) ")
+    print(" - buider func  ;) ")
 
 ###################################################################
     fixed_tokens = {
@@ -239,7 +239,7 @@ def unit_testing():
     result = _evaluate_parse(left_parse, tokens)
     assert result == 1,"Test Error in  eval parser"
 
-    print(" - method eval ;) ")
+    print(" - method eval  ;) ")
 
 #############################################################
     return "LL1"
