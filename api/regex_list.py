@@ -1,2 +1,2 @@
 def COOL_regex():
-    pass
+    return []

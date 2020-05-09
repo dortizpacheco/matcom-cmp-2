@@ -1,5 +1,7 @@
 testing.py
 base.py
+tester_case/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

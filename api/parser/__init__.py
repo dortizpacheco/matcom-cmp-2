@@ -3,7 +3,7 @@ class ParsingError(Exception):
         self.errors = errors
 
 
-from .main import get_LL,get_LR
 from .firts_and_follows import get_firsts_and_follow
 from .ll1 import LL1
+from .lr import LR1, evaluate_reverse_parse
 
